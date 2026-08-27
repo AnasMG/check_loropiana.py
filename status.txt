@@ -1,0 +1,24 @@
+Host: de.loropiana.com | locale: en | article: FAE5444 | color: MB97
+
+[0] Warming up session on product page...
+  -> [403], cookies: []
+
+[1] Trying: LP api get-sizes
+  -> GET https://de.loropiana.com/api/pdp/get-sizes?articleCode=FAE5444&colorCode=MB97  [403]
+
+[2] Trying: LP api get-variants
+  -> GET https://de.loropiana.com/api/pdp/get-variants?articleCode=FAE5444&colorCode=MB97  [403]
+
+[3] Trying: LP api availability
+  -> GET https://de.loropiana.com/api/pdp/availability?articleCode=FAE5444&colorCode=MB97  [403]
+
+[4] Trying: SFCC Product-Variation
+  -> GET https://de.loropiana.com/on/demandware.store/Sites-loropiana-b2c-de-Site/en/Product-Variation?pid=FAE5444_MB97&quantity=1  [403]
+
+[5] Trying: SFCC Product-ShowQuickView
+  -> GET https://de.loropiana.com/on/demandware.store/Sites-loropiana-b2c-de-Site/en/Product-ShowQuickView?pid=FAE5444_MB97  [403]
+
+==================================================
+No size data found via any method.
+Next step: open the page in Chrome DevTools → Network tab → change the size
+in the dropdown, and note which XHR request fires. Send me its URL + response.
