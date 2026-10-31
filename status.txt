@@ -1,7 +1,7 @@
 Host: de.loropiana.com | locale: en | article: FAE5444 | color: MB97
 
 [0] Warming up session on product page...
-  -> [403], cookies: ['AKA_A2']
+  -> [403], cookies: []
 
 [1] Trying: LP api get-sizes
   -> GET https://de.loropiana.com/api/pdp/get-sizes?articleCode=FAE5444&colorCode=MB97  [403]
